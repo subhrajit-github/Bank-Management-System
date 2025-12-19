@@ -38,7 +38,7 @@ public class Signup2 extends JFrame implements ActionListener {
         l3.setBounds(100,120,100,30);
         add(l3);
 
-        String religion[] = {"Hindu","Muslim","Sikh", "Christian", "Other"};
+        String[] religion = {"Hindu","Muslim","Sikh", "Christian", "Other"};
         comboBox = new JComboBox(religion);
         comboBox.setBackground(new Color(252,208,76));
         comboBox.setFont(new Font("Raleway",Font.BOLD,14));
@@ -50,7 +50,7 @@ public class Signup2 extends JFrame implements ActionListener {
         l4.setBounds(100,170,100,30);
         add(l4);
 
-        String Category [] = {"General","OBC","SC", "ST", "Other"};
+        String[] Category = {"General","OBC","SC", "ST", "Other"};
         comboBox2 = new JComboBox(Category);
         comboBox2.setBackground(new Color(252,208,76));
         comboBox2.setFont(new Font("Raleway",Font.BOLD,14));
@@ -62,7 +62,7 @@ public class Signup2 extends JFrame implements ActionListener {
         l5.setBounds(100,220,100,30);
         add(l5);
 
-        String income [] = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000","Above 10,00,000"};
+        String[] income = {"Null","<1,50,000","<2,50,000", "5,00,000", "Uptp 10,00,000","Above 10,00,000"};
         comboBox3 = new JComboBox(income);
         comboBox3.setBackground(new Color(252,208,76));
         comboBox3.setFont(new Font("Raleway",Font.BOLD,14));
@@ -74,7 +74,7 @@ public class Signup2 extends JFrame implements ActionListener {
         l6.setBounds(100,270,150,30);
         add(l6);
 
-        String educational [] = {"Non-Graduate","Graduate","Post-Graduate", "Doctrate", "Others"};
+        String[] educational = {"Non-Graduate","Graduate","Post-Graduate", "Doctrate", "Others"};
         comboBox4 = new JComboBox(educational);
         comboBox4.setBackground(new Color(252,208,76));
         comboBox4.setFont(new Font("Raleway",Font.BOLD,14));
@@ -87,7 +87,7 @@ public class Signup2 extends JFrame implements ActionListener {
         l7.setBounds(100,340,150,30);
         add(l7);
 
-        String Occupation [] = {"Salaried","Self-Employed","Business", "Student", "Retired", "Other"};
+        String[] Occupation = {"Salaried","Self-Employed","Business", "Student", "Retired", "Other"};
         comboBox5 = new JComboBox(Occupation);
         comboBox5.setBackground(new Color(252,208,76));
         comboBox5.setFont(new Font("Raleway",Font.BOLD,14));
